@@ -150,4 +150,4 @@ const ConversationPage = () => {
   ) 
 }
 
-export default conversationPage
+export default ConversationPage
