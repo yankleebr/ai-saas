@@ -23,7 +23,7 @@ import { ChatCompletionRequestMessage } from 'openai'
 import { useProModal } from '@/hooks/use-pro-modal'
 import toast from 'react-hot-toast'
 
-const conversationPage = () => {
+const ConversationPage = () => {
     const proModal = useProModal()
     const router = useRouter()
     const [messages, setMessages] = useState<ChatCompletionRequestMessage[]>([])
